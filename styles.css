@@ -21,6 +21,11 @@ h2 {
   font-size: 48px;
 }
 
+i {
+  color: var(--primary-text-color);
+}
+
+/* SECTIONS */
 .hero {
   background-color: var(--primary-background-color);
   padding: 100px;
@@ -41,9 +46,8 @@ h2 {
   grid-column-gap: 40px;
 }
 
-i {
-  color: var(--primary-text-color);
-  padding: 0 80px 0 80px;
+.social-profiles i {
+  padding-left: 100px;
 }
 
 .social-profiles hr {
