@@ -54,3 +54,37 @@ i {
 .social-profiles h2 {
   padding-left: 80px;
 }
+
+.skills h2 {
+  padding: 100px;
+  text-decoration: underline;
+}
+.skill-icons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-row-gap: 30px;
+  justify-items: center;
+}
+
+.skill-icons img {
+  width: 100px;
+}
+
+.skill-icons figcaption {
+  text-align: center;
+  font-size: larger;
+  padding-top: 10px;
+}
+
+/* rotate react icon */
+.rotate {
+  animation: rotation 8s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
