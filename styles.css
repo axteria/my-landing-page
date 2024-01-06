@@ -1,0 +1,56 @@
+:root {
+  --primary-background-color: #c8bce439;
+  --secondary-background-color: rgb(233, 231, 231);
+  --primary-text-color: #40424a;
+  --secondary-text-color: #808181;
+  --box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  color: #40424a;
+}
+
+h1 {
+  color: var(--primary-text-color);
+  font-size: 120px;
+}
+
+h2 {
+  color: var(--primary-text-color);
+  font-size: 48px;
+}
+
+.hero {
+  background-color: var(--primary-background-color);
+  padding: 100px;
+}
+
+.hero-text {
+  font-size: 40px;
+  line-height: 1.3;
+  color: var(--secondary-text-color);
+}
+
+.social-profiles {
+  background-color: var(--secondary-background-color);
+  padding: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  grid-column-gap: 40px;
+}
+
+i {
+  color: var(--primary-text-color);
+  padding: 0 80px 0 80px;
+}
+
+.social-profiles hr {
+  color: var(--primary-text-color);
+  border: 1px solid;
+  padding-left: 0;
+}
+.social-profiles h2 {
+  padding-left: 80px;
+}
